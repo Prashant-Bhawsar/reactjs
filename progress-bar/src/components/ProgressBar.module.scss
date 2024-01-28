@@ -1,0 +1,33 @@
+/* Style for the container of the progress bar */
+.progress_container {
+
+  width: 80%;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Style for the actual progress bar */
+.progress_bar {
+  width: 0;
+  height: 20px;
+  background-color: #4caf50;
+  color: #4caf50;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 4px;
+  transition: width 0.3s ease-in-out;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+
+}
